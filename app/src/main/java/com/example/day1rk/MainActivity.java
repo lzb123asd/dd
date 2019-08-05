@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(MainActivity.this, "123", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "123456", Toast.LENGTH_SHORT).show();
             }
         });
     }
