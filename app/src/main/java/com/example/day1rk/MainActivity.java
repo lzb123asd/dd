@@ -9,17 +9,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
-    private ImageView imageViewA,imageViewB,imageViewD;
-    private TextView textViewC,textView,biaoti;
+    private ImageView imageViewA, imageViewB, imageViewD;
+    private TextView textViewC, textView, biaoti;
     private LinearLayout linearLayout;
-    private TextView itemone,itemtwo,itemthree;
+    private TextView itemone, itemtwo, itemthree;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         imageViewA = findViewById(R.id.A);
-        imageViewB  = findViewById(R.id.B);
+        imageViewB = findViewById(R.id.B);
         textViewC = findViewById(R.id.C);
         imageViewD = findViewById(R.id.D);
         textView = findViewById(R.id.text);
@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
         itemthree = findViewById(R.id.item2);
         linearLayout = findViewById(R.id.layout);
         biaoti = findViewById(R.id.text_biaoti);
-        
-        
+
+
         itemone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                linearLayout.setVisibility(View.GONE);
+                Toast.makeText(MainActivity.this, "123", Toast.LENGTH_SHORT).show();
             }
         });
     }
