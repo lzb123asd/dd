@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:background="#3F51B5">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="7dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/text_biaoti"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="标题"
+            android:textColor="#FFF"
+            android:gravity="center"
+            android:textSize="22sp"/>
+
+        <ImageView
+            android:id="@+id/A"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp" />
+
+        <ImageView
+            android:id="@+id/B"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="100dp" />
+
+        <TextView
+            android:id="@+id/C"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="100dp"
+            android:text="点我"
+            android:textColor="#FFF"/>
+
+
+        <ImageView
+            android:id="@+id/D"
+            android:layout_width="35dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_dian"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:visibility="gone">
+        <TextView
+            android:id="@+id/item0"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="item0"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/item1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="item1"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="item2"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="120dp"
+        android:text="这是文本"
+        android:textSize="30sp"
+        android:textColor="#000"
+        android:gravity="center"/>
+
+
+
+
+</RelativeLayout>
